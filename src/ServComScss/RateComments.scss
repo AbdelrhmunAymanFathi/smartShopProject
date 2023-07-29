@@ -1,0 +1,308 @@
+.RateContianer
+{
+    width: 1239px;
+    height: 1066.882px; 
+    //background-color: darkred;
+    margin:2% 18% ;
+;
+}
+
+.RateContianer .button_Contianer
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.RateContianer .button_Contianer .buttonPage1
+{
+    display: flex;
+    padding: 30px 10px;
+    align-items: flex-start;
+    gap: 10px;
+    border:1px solid #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.50);
+  
+    color: rgba(0, 0, 0, 0.70);
+    font-family: Tajawal;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background-color: #fff;
+}
+
+.RateContianer .button_Contianer .buttonPage3
+{
+    display: flex;
+    padding: 30px 10px;
+    align-items: flex-start;
+    gap: 10px;
+    border:1px solid #fff;
+    
+  
+    color: rgba(0, 0, 0, 0.70);
+    font-family: Tajawal;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background-color: #fff;
+}
+
+
+.RateContianer .Line
+{
+    width: 1234px;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.10);
+}
+
+.RateContianer .RateData
+{
+    display:flex;
+}
+
+.RateContianer .RateData .SendApi h4
+{
+    direction: rtl;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+    color: rgba(0, 0, 0, 0.70);
+    font-family: Tajawal;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    justify-content: right;
+    margin-top: 13%;
+}
+
+.RateContianer .RateData .SendApi .starText
+{
+    display: flex;
+    display: inline-flex;
+//align-items: center;
+gap: 29px; 
+margin-left: 66.56%;
+margin-top: 3%;
+
+}
+
+.RateContianer .RateData .SendApi .starText h5
+{
+    color: rgba(0, 0, 0, 0.70);
+    font-family: Tajawal;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.RateContianer .RateData .SendApi .inputOne input
+{
+    border-radius: 24px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    display: flex;
+    width: 572px;
+    height: 49px;
+    padding: 10px 48px 10px 483px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 14px;
+    margin-top: 5%;
+}
+
+.RateContianer .RateData .SendApi .inputTwo 
+{
+    border-radius: 24px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    display: flex;
+    width: 572px;
+    height: 227px;
+    padding: 24px 42px 10px 485px;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 18px;
+    margin-top: 3%;
+    input
+    {
+        width: 493px;
+        height: 184px;
+        flex-shrink: 0;
+        color: rgba(0, 0, 0, 0.30);
+        text-align: right;
+        font-family: Tajawal;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        border: 1px solid #fff;
+    
+    }
+    
+}
+.RateContianer .RateData .SendApi .inputThree
+{
+    display: flex;
+    margin-top: 3%;
+    gap:2rem;
+
+}
+.RateContianer .RateData .SendApi .inputThree .un
+{
+    display: flex;
+    width: 281px;
+    height: 49px;
+    //padding: 10px 44px 10px 483px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 14px;
+    border-radius: 49px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    direction: rtl;
+}
+
+.RateContianer .RateData .SendApi .inputThree .du
+{
+
+    display: flex;
+    width: 257px;
+    height: 49px;
+   // padding: 10px 44px 10px 483px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 14px;
+    border-radius: 24px;
+    border: 1px solid rgba(0, 0, 0, 0.20);    
+    direction: rtl;
+}
+
+.RateContianer .RateData .SendApi  .sendData
+{
+    border-radius: 45px;
+    background: var(--primary, #7FD3DF);
+    display: flex;
+    padding: 10px 37px;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 3%;
+    color: #FFF;
+    text-align: right;
+    font-family: Tajawal;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border:1px solid #fff;
+    margin-left: 430px;
+}
+.comments
+{
+    justify-content: flex-end;
+    display: flex;
+  
+}
+// options 
+.options{
+    display: flex;
+    justify-content: right;
+}
+//options p
+.options p{
+    padding: 40px 35px;
+}
+//options //rateProduct
+.options .rateProduct{
+    border-bottom: 1px solid black;
+}
+// product comment //rate star
+.productComments .addRate .rateStar{
+    display: flex;
+    justify-content: space-between;
+    width: 190px;
+}
+//product comment
+.productComments{
+    display: flex;
+    justify-content: space-around;
+
+}
+// product comment // add rate //rate star p
+.productComments .addRate .rateStar p{
+    padding-top: 8px;
+}
+// product comment //comments // ten rate
+.productComments .comments .tenRate{
+    direction: rtl;
+    color: rgba(0, 0, 0, 0.70);
+    font-family: Tajawal;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+// product comment comment  commentt
+.productComments .comment .commentt{
+    display: flex;
+    margin-top: 50px;
+}
+//product comment //comment //commentt //comment text //ct1
+.productComments .comment .commentt .commentText .ct1{
+    direction: rtl;
+    color: rgba(0, 0, 0, 0.70);
+    font-family: Tajawal;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+//product comment //comment //commentt //comment text //ct2
+.productComments .comment .commentt .commentText .ct2{
+    width: 399px;
+    height: 110px;
+    flex-shrink: 0;
+    color: rgba(0, 0, 0, 0.40);
+    text-align: right;
+    font-family: Tajawal;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%; 
+}
+.productComments .comment .commentt .commentText .reactStars{
+    direction: rtl;
+}
+//product comment //comment //commentt //comment text //name&date
+.productComments .comment .commentt .commentText .name_date{
+    display: flex;
+    justify-content: space-between;
+    width: 270px;
+    margin-left: 125px;
+    margin-top: 10px;
+
+}
+//product comment //comment //commentt //comment text //name&date //date
+.productComments .comment .commentt .commentText .name_date .date{
+    direction: rtl;
+    color: rgba(0, 0, 0, 0.40);
+    text-align: right;
+    font-family: Tajawal;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+//product comment //comment //commentt //comment text //name&date //name
+.productComments .comment .commentt .commentText .name_date .name{
+    color: rgba(0, 0, 0, 0.70);
+    text-align: right;
+    font-family: Tajawal;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

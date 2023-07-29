@@ -1,0 +1,212 @@
+.ContLog2
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.FormLogin2 .smartShopIcon2
+{
+    align-items: right;
+    justify-content: flex-end;
+    width: 960px;
+    margin-top: 10%;
+}
+
+.FormLogin2 .smartShopIcon2 .Smart2
+{
+    margin-left: 55%;
+    width: 146px;
+    height: 39.218px;
+}
+
+.FormLogin2 .smartShopIcon2 .Shop2
+{
+    margin-top: 10px ;
+    width: 126.661px;
+    height: 49.226px;
+    
+}
+
+.ContLog2 .FormLogin2 .text1102
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 8px;
+    margin-right: 16.2%;
+    margin-top: 15%;
+}
+
+.ContLog2 .FormLogin2 .text1102 .p1101
+{
+    color: #000;
+    font-family: Tajawal;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.ContLog2 .FormLogin2 .text1102 .p1102
+{
+    color: #000;
+    font-family: Tajawal;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.ContLog2 .FormLogin2 .Form5004
+{
+    display: flex;
+    width: 533px;
+    padding: 16px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 34px;
+    background: #FFF;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.15);
+    margin-left: 28%;
+    margin-top: 3%;
+}
+
+.ContLog2 .FormLogin2 .Form5004 input
+{
+    width: 429px;
+    flex-shrink: 0;
+    color: rgba(0, 0, 0, 0.50);
+    text-align: right;
+    font-family: Tajawal;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    border: none;
+}
+
+.ContLog2 .FormLogin2 .Form5005
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 248px;
+    margin-right: 16.2%;
+    margin-top: 5%;
+    
+}
+
+.ContLog2 .FormLogin2 .Form5005  a
+{
+    color: #69BFFF;
+    text-align: right;
+    font-family: Tajawal;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.ContLog2 .FormLogin2 .Form5005 .btnLogIn
+{
+    display: flex;
+    width: 131px;
+    height: 51px;
+    padding: 12px 3px 0px 14px;
+    align-items: flex-start;
+    gap: 32px;
+    color: #FFF;
+    text-align: right;
+    font-family: Tajawal;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    border-radius: 8px;
+    background: var(--primary, #7FD3DF);
+    border: none;
+}
+
+.ContLog2 .FormLogin2 .text11004 p
+{
+    direction: rtl;
+    margin-right: 16%;
+    color: #000;
+    text-align: right;
+    font-family: Tajawal;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 4.5%;
+}
+
+.ContLog2 .FormLogin2 .iconSocialMedia2
+{
+    display: flex;
+    //flex-direction: column;
+    align-items: flex-end;
+    gap: 21px;
+    justify-content: flex-end;
+    margin-right: 15.6%;
+    margin-top: 5%;
+}
+
+.picLogin2
+{
+    position: relative;
+}
+
+
+@media only screen and (max-width: 600px)
+{
+    .picLogin2
+    {
+        display: none;
+    }
+
+    .btn52
+    {
+        display: none;
+    }
+
+}
+
+.btn52 .btn504
+{
+    position: absolute;
+    top:48%;
+    display: flex;
+    border: none;
+    width: 131px;
+    height: 51px;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 32px;
+    border-radius: 0px 88px 88px 0px;
+    background: var(--primary, #7FD3DF);
+    text-decoration: none;
+    color:#000;
+    }
+
+    .btn52 .btn505
+{
+    position: absolute;
+    top:54%;
+    border-radius: 0px 88px 88px 0px;
+    background: #FFF;  display: flex;
+    display: flex;
+    width: 132px;
+    height: 51px;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 32px;
+    border: none;
+    text-decoration: none;
+    color:#000;
+
+    }
+

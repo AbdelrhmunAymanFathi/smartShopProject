@@ -1,0 +1,61 @@
+.header {
+  background-image: url("../imgs/2p111.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1900px;
+  height: 330px;
+  flex-shrink: 0;
+  margin-top: 2.8%;
+}
+.header p {
+  color: red;
+}
+
+.header .text4 h1 {
+  color: #FFF;
+  text-align: center;
+  font-family: Tajawal;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.header .text4 .t4 {
+  display: flex;
+  gap: 20px;
+  text-align: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  font-family: Tajawal;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.header .text4 .t4 .ko {
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  font-family: Tajawal;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.header .text4 {
+  color: #FFF;
+  text-align: center;
+  font-family: Tajawal;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+  padding-top: 6%;
+}/*# sourceMappingURL=Head.css.map */

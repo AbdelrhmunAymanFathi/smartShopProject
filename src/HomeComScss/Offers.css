@@ -1,0 +1,116 @@
+.offers {
+  display: flex;
+  justify-content: space-around;
+  padding: 1.2% 16.3%;
+}
+
+.offers .girl {
+  background: #FFDBDF;
+  height: 325px;
+  display: flex;
+  width: 615px;
+  height: 325px;
+}
+
+.offers .girl .text {
+  margin-top: 15%;
+  padding-left: 12%;
+}
+
+.offers .girl .text .btn1 {
+  color: #000;
+  text-align: right;
+  font-family: Tajawal;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  border-bottom: 2px solid #7FD3DF;
+  background-color: #FFDBDF;
+  margin-left: 50%;
+}
+
+.offers .girl .text a {
+  text-decoration: none;
+}
+
+.offers .girl .text .para4 {
+  color: #000;
+  text-align: right;
+  font-family: Tajawal;
+  width: -moz-max-content;
+  width: max-content;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.offers .girl .text .para3 {
+  color: #000;
+  text-align: right;
+  font-family: Tajawal;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-left: 50%;
+}
+
+.offers .girl .lady img {
+  margin-left: -22%;
+}
+
+.boy {
+  display: flex;
+  justify-content: space-around;
+  background: #D6F7FE;
+  height: 325px;
+  display: flex;
+  width: 615px;
+  height: 325px;
+}
+
+.boy .text .btn2 {
+  color: #000;
+  text-align: right;
+  font-family: Tajawal;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  border-bottom: 2px solid #7FD3DF;
+  background: #D6F7FE;
+  margin-left: 54.4%;
+}
+
+.offers .boy .text .para4 {
+  color: #000;
+  text-align: right;
+  font-family: Tajawal;
+  width: -moz-max-content;
+  width: max-content;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.offers .boy .text .para3 {
+  color: #000;
+  text-align: right;
+  font-family: Tajawal;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.offers .boy .text {
+  margin-left: 9.5%;
+  margin-top: 15%;
+}/*# sourceMappingURL=Offers.css.map */

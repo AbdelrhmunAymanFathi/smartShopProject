@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri&family=Tajawal:wght@200;300;400;900&display=swap');
+
+.Footer {
+    width: 100%;
+    height: 345px;
+    background-color: #54A4AF;
+    margin-top: 10%;
+}
+.p{
+    color: #fff;
+   // margin-left: 4%;
+    // width: 100%;
+    margin-top: 7%;
+    font-size: 12px;
+    font-weight: 500px;
+    font-family: El Messiri;
+    font-size: 20px; 
+    text-align: center;
+    justify-content: center;
+    display: flex;
+
+}
+.h66{
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+
+    // margin-top: 9%;
+    transform: translateY(100px);
+    font-family: El Messiri;
+font-size: 32px; 
+}
+.imgFooter{
+   // margin-left: 38%;
+    transform: translateY(70px);
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 1%;
+
+}
+.imgFooter img{
+    margin-left: 39.7px;
+}
+.Link{
+   // margin-left: 34.5%;
+    transform: translateY(50px);
+
+    color: #FFF;
+
+   font-family: El Messiri;
+
+   text-align: center;
+    justify-content: center;
+    display: flex;
+
+
+}
+.btnFooter{
+    margin-left: 10px;
+    background-color: #54A4AF;
+    color: #fff;
+    border: none;
+    line-height: normal;
+    text-transform: capitalize; 
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    font-family: El Messiri;
+    
+}

@@ -1,0 +1,346 @@
+@import '~bootstrap/scss/bootstrap.scss';
+.ConDetails
+{
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 5%;
+}
+.ConDetails .Left .type1 
+{
+    justify-content: flex-end;
+    align-items: right;
+    display: flex;
+}
+.ConDetails .Left .type1 h1
+{
+    color: #000;
+text-align: center;
+font-family: Tajawal;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+
+.ConDetails .Left .type2
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+    gap: 8px; 
+}
+.ConDetails .Left .type2 .pNormal
+{
+    color: rgba(0, 0, 0, 0.70);
+text-align: center;
+font-family: Tajawal;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+direction: rtl;
+}
+
+.ConDetails .Left .type2 .pUnNormal
+{
+    color: rgba(0, 0, 0, 0.70);
+text-align: center;
+font-family: Tajawal;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration:line-through;
+direction: rtl;
+}
+.ConDetails .Left .Stars
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 8px; 
+}
+.ConDetails .Left .Stars .starGolden
+{
+    color:gold;
+    width: 15.759px;
+    height: 15.882px; 
+}
+
+.ConDetails .Left .Stars .number p
+{
+    display: flex;
+    width: 29px;
+    height: 24px;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: rgba(0, 0, 0, 0.70);
+    text-align: center;
+    font-family: Tajawal;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 1.5rem;
+}
+
+.ConDetails .Left .type3
+{
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.ConDetails .Left .type3 p
+{
+    color: rgba(0, 0, 0, 0.70);
+text-align: right;
+font-family: Tajawal;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 170%; /* 40.8px */
+margin-left: 6.9%;
+
+display: flex;
+width: 528px;
+height: 95px;
+//flex-direction: column;
+//justify-content: flex-end;
+}
+
+.ConDetails .Left .type4 h1
+{
+    direction: rtl;
+    color: #000;
+    text-align: right;
+    font-family: Tajawal;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.ConDetails .Left .FourPics
+{
+    display: flex;
+    align-items:flex-end;
+    justify-content: flex-end;
+    gap: 10px; 
+}
+
+.ConDetails .Left .type5 h1{
+    color: #000;
+    text-align: right;
+    font-family: Tajawal;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    direction: rtl;
+}
+
+.ConDetails .Left .sizeBox 
+{
+    display: flex;
+    justify-content: end;
+ 
+    align-items: flex-end;
+    gap: 10px; 
+}
+
+.ConDetails .Left .sizeBox .Frame
+{
+  
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.50);
+    direction: rtl;
+    padding: 10px;
+    align-items: flex-end;
+    justify-content: end;
+    gap: 10px;    
+}
+
+
+.ConDetails .Left .sizeBox .Frame p{
+
+    color: rgba(0, 0, 0, 0.70);
+    text-align: center;
+    font-family: Tajawal;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+
+.ConDetails .Left .CountCounterAndBtn .counterSpeed
+{
+    display: flex;
+    direction: rtl;
+    margin-top: -7%;
+}
+
+.ConDetails .Left .CountCounterAndBtn .counterSpeed input
+{
+    width: 37.987px;
+    height: 31.149px;
+    border-top: 1px solid rgba(0, 0, 0, 0.20);
+border-bottom: 1px solid rgba(0, 0, 0, 0.20);
+background: #FFF;
+text-align: center;
+justify-content: center;
+align-items: center;
+
+}
+
+.ConDetails .Left .CountCounterAndBtn .counterSpeed .minus
+{
+    width: 39.506px;
+    height: 31.149px;
+   
+    border-radius: 0px 25.071px 25.071px 0px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    background: rgba(217, 217, 217, 0.50);
+}
+
+.ConDetails .Left .CountCounterAndBtn .counterSpeed .plus
+{
+    width: 39.506px;
+    height: 31.149px;
+    border-radius: 25.071px 0px 0px 25.071px;
+border: 1px solid rgba(0, 0, 0, 0.20);
+background: rgba(217, 217, 217, 0.50);
+}
+.ConDetails .Left .CountCounterAndBtn .btno
+{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 6%;
+    margin-left: 27%;
+}
+.ConDetails .Left .CountCounterAndBtn .btno .addToCard
+{
+    display: flex;
+padding: 8px 16px;
+justify-content: center;
+align-items: center;
+gap: 32px;
+border-radius: 5.087px;
+background: var(--primary, #7FD3DF);
+color: #fff;
+border : 1px solid #7FD3DF;
+}
+
+.ConDetails .Left .heartAndText
+{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-top: 4%;
+
+}
+
+.ConDetails .Left .heartAndText .intel h5
+{
+    display: flex;
+    width: 157px;
+    height: 35px;
+    flex-direction: column;
+    justify-content: center;
+    color: #000;
+    text-align: center;
+    font-family: Tajawal;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.ConDetails .Left .heartAndText .iconH
+{
+    width: 25px;
+    height: 27px;
+}
+
+.ConDetails .Left div .full
+{
+    display: flex;
+    padding: 16px 229px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 6px;
+    background: var(--primary, #7FD3DF);
+    color: #FFF;
+    text-align: center;
+    font-family: Tajawal;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border : 1px solid #7FD3DF;
+}
+.ConDetails .Left .SocialMe .samsungDis
+{
+    margin-top: 5%;
+}
+.ConDetails .Left .SocialMe .samsungDis h5
+{
+    color: #000;
+    text-align: right;
+    font-family: Tajawal;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.ConDetails .Left .SocialMe .iconSocial
+{
+    display: flex;
+    margin-top: 8%;
+    align-items: flex-start;
+    gap: 16px;
+    text-align: right;
+    justify-content: flex-end;
+
+}
+.ConDetails .Left .SocialMe div img
+{
+    width: 34.108px;
+    height: 35.326px;
+}
+
+
+.ConDetails .Right
+{
+    margin-top: 2%;
+    padding: 0% 7% 0% 0%;
+}
+
+.ConDetails .Left
+{
+    padding: 0% 4% 0% 10%;
+}
+.ConDetails .Right .Sealy .bigImg
+{
+    border: 1px solid rgba(0, 0, 0, 0.30); 
+    margin-left: 2.5%;
+    padding:0%  5%;
+}
+.ConDetails .Right .Sealy .flex_row
+{
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+    gap:1rem;
+}
+
+
+.ConDetails .Right .Sealy .flex_row .Thump
+{
+  
+    border: 1px solid rgba(0, 0, 0, 0.30); 
+   
+}
